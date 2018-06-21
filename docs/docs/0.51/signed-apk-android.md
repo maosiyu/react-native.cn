@@ -15,7 +15,7 @@ Android要求所有应用都有一个数字签名才会被允许安装在用户�
 ### 设置gradle变量
 
 1. 把`my-release-key.keystore`文件放到你工程中的`android/app`文件夹下。
-2. 编辑`~/.gradle/gradle.properties`（没有这个文件你就创建一个），添加如下的代码（注意把其中的`****`替换为相应密码）
+2. 编辑`android/gradle.properties`（没有这个文件你就创建一个），添加如下的代码（注意把其中的`****`替换为相应密码）
 
 **注意：~表示用户目录，比如windows上可能是`C:\Users\用户名`，而mac上可能是`/Users/用户名`。**
 
